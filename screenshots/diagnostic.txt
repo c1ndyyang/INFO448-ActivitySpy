@@ -1,0 +1,51 @@
+Full Diagnostic Log:
+2023-10-19 13:39:27.682 14482-14482/? I/dyy.activitysp: Late-enabling -Xcheck:jni
+2023-10-19 13:39:27.750 14482-14482/? W/dyy.activitysp: Unexpected CPU variant for X86 using defaults: x86
+2023-10-19 13:39:28.197 14482-14482/edu.uw.ischool.c1ndyy.activityspy W/dyy.activitysp: Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+2023-10-19 13:39:28.197 14482-14482/edu.uw.ischool.c1ndyy.activityspy W/dyy.activitysp: Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+2023-10-19 13:39:28.489 14482-14482/edu.uw.ischool.c1ndyy.activityspy W/dyy.activitysp: Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+2023-10-19 13:39:28.489 14482-14482/edu.uw.ischool.c1ndyy.activityspy W/dyy.activitysp: Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+2023-10-19 13:39:28.489 14482-14482/edu.uw.ischool.c1ndyy.activityspy W/dyy.activitysp: Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+2023-10-19 13:39:28.489 14482-14482/edu.uw.ischool.c1ndyy.activityspy W/dyy.activitysp: Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+2023-10-19 13:39:28.555 14482-14482/edu.uw.ischool.c1ndyy.activityspy W/dyy.activitysp: Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
+2023-10-19 13:39:28.652 14482-14482/edu.uw.ischool.c1ndyy.activityspy W/dyy.activitysp: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2023-10-19 13:39:28.652 14482-14482/edu.uw.ischool.c1ndyy.activityspy W/dyy.activitysp: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2023-10-19 13:39:28.763 14482-14482/edu.uw.ischool.c1ndyy.activityspy I/MainActivity: onCreate event fired
+2023-10-19 13:39:28.873 14482-14482/edu.uw.ischool.c1ndyy.activityspy I/MainActivity: onStart event fired
+2023-10-19 13:39:28.876 14482-14482/edu.uw.ischool.c1ndyy.activityspy I/MainActivity: onResume event fired
+2023-10-19 13:39:28.896 14482-14482/edu.uw.ischool.c1ndyy.activityspy D/OpenGLRenderer: HWUI GL Pipeline
+2023-10-19 13:39:28.953 14482-14506/edu.uw.ischool.c1ndyy.activityspy D/HostConnection: HostConnection::get() New Host Connection established 0xe162c230, tid 14506
+2023-10-19 13:39:28.954 14482-14506/edu.uw.ischool.c1ndyy.activityspy D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+2023-10-19 13:39:28.963 14482-14506/edu.uw.ischool.c1ndyy.activityspy I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2023-10-19 13:39:28.963 14482-14506/edu.uw.ischool.c1ndyy.activityspy I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2023-10-19 13:39:28.964 14482-14506/edu.uw.ischool.c1ndyy.activityspy I/OpenGLRenderer: Initialized EGL, version 1.4
+2023-10-19 13:39:28.964 14482-14506/edu.uw.ischool.c1ndyy.activityspy D/OpenGLRenderer: Swap behavior 1
+2023-10-19 13:39:28.964 14482-14506/edu.uw.ischool.c1ndyy.activityspy W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2023-10-19 13:39:28.964 14482-14506/edu.uw.ischool.c1ndyy.activityspy D/OpenGLRenderer: Swap behavior 0
+2023-10-19 13:39:28.965 14482-14506/edu.uw.ischool.c1ndyy.activityspy D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+2023-10-19 13:39:28.965 14482-14506/edu.uw.ischool.c1ndyy.activityspy D/EGL_emulation: eglCreateContext: 0xe1605480: maj 2 min 0 rcv 2
+2023-10-19 13:39:28.967 14482-14506/edu.uw.ischool.c1ndyy.activityspy D/EGL_emulation: eglMakeCurrent: 0xe1605480: ver 2 0 (tinfo 0xe16036c0)
+2023-10-19 13:39:28.999 14482-14506/edu.uw.ischool.c1ndyy.activityspy D/HostConnection: createUnique: call
+2023-10-19 13:39:28.999 14482-14506/edu.uw.ischool.c1ndyy.activityspy D/HostConnection: HostConnection::get() New Host Connection established 0xe162c4b0, tid 14506
+2023-10-19 13:39:29.006 14482-14506/edu.uw.ischool.c1ndyy.activityspy D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+2023-10-19 13:39:29.006 14482-14506/edu.uw.ischool.c1ndyy.activityspy E/eglCodecCommon: GoldfishAddressSpaceHostMemoryAllocator: ioctl_ping failed for device_type=5, ret=-1
+2023-10-19 13:39:29.041 14482-14506/edu.uw.ischool.c1ndyy.activityspy D/EGL_emulation: eglMakeCurrent: 0xe1605480: ver 2 0 (tinfo 0xe16036c0)
+2023-10-19 13:39:29.381 14482-14482/edu.uw.ischool.c1ndyy.activityspy W/dyy.activitysp: Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (light greylist, reflection)
+2023-10-19 13:39:29.381 14482-14482/edu.uw.ischool.c1ndyy.activityspy W/dyy.activitysp: Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (light greylist, reflection)
+2023-10-19 13:39:29.381 14482-14482/edu.uw.ischool.c1ndyy.activityspy W/dyy.activitysp: Accessing hidden method Landroid/os/Trace;->traceCounter(JLjava/lang/String;I)V (light greylist, reflection)
+2023-10-19 13:39:35.169 14482-14482/edu.uw.ischool.c1ndyy.activityspy I/MainActivity: onPause event fired
+2023-10-19 13:39:35.940 14482-14506/edu.uw.ischool.c1ndyy.activityspy D/EGL_emulation: eglMakeCurrent: 0xe1605480: ver 2 0 (tinfo 0xe16036c0)
+2023-10-19 13:39:35.973 14482-14482/edu.uw.ischool.c1ndyy.activityspy I/MainActivity: onStop event fired
+2023-10-19 13:39:35.979 14482-14482/edu.uw.ischool.c1ndyy.activityspy I/MainActivity: onDestroy event fired
+2023-10-19 13:39:35.979 14482-14482/edu.uw.ischool.c1ndyy.activityspy E/MainActivity: We're going down, Captain!
+
+
+
+Filtered Diagnostic Log (with the messages):
+2023-10-19 13:39:28.763 14482-14482/edu.uw.ischool.c1ndyy.activityspy I/MainActivity: onCreate event fired
+2023-10-19 13:39:28.873 14482-14482/edu.uw.ischool.c1ndyy.activityspy I/MainActivity: onStart event fired
+2023-10-19 13:39:28.876 14482-14482/edu.uw.ischool.c1ndyy.activityspy I/MainActivity: onResume event fired
+2023-10-19 13:39:35.169 14482-14482/edu.uw.ischool.c1ndyy.activityspy I/MainActivity: onPause event fired
+2023-10-19 13:39:35.973 14482-14482/edu.uw.ischool.c1ndyy.activityspy I/MainActivity: onStop event fired
+2023-10-19 13:39:35.979 14482-14482/edu.uw.ischool.c1ndyy.activityspy I/MainActivity: onDestroy event fired
+2023-10-19 13:39:35.979 14482-14482/edu.uw.ischool.c1ndyy.activityspy E/MainActivity: We're going down, Captain!
